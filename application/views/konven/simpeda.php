@@ -1,3 +1,4 @@
+<!-- <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide8.png"> -->
 <!-- <div class="col-md-6"> -->
 <!-- <div class="box box-solid"> -->
 <!-- <div class="box-header with-border"> -->
@@ -12,21 +13,30 @@
             <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active">
-            <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide10.png" alt="First slide">
-
-                <div class="carousel-caption">
-                    First Slide
+            <?php
+            for ($i = 0; $i < count($gambar); $i++) {
+                $aktif = ($i == 0) ? "active" : ""; ?>
+                <div class="item <?= $aktif ?>">
+                    <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>uploads\gambar\<?= $gambar[$i]->gambar ?>">
+                    <div class="carousel-caption">
+                        <!-- First Slide -->
+                    </div>
                 </div>
-            </div>
-            
-                <div class="item">
-                <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide21.png" alt="Second slide">
+            <?php } ?>
+            <!-- <div class="item">
+            <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide25.png" alt="Second slide">
 
                 <div class="carousel-caption">
                     Second Slide
                 </div>
             </div>
+            <div class="item">
+            <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide26.png" alt="Third slide">
+
+                <div class="carousel-caption">
+                    Third Slide
+                </div>
+            </div> -->
         </div>
         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
             <span class="fa fa-angle-left"></span>

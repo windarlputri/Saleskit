@@ -71,4 +71,9 @@ class Konven extends H_Controller
         $d['gambar'] = $this->g->ambil_gambar('giro');
         page_render('Giro',$this->prefix_folder.'giro',$d);
     }
+    function depohitung()
+    {
+    	$d['url']=$this->mod_url;
+        page_render('Hitung Deposito',$this->prefix_folder.'depohitung',$d);
+    }  
 }
