@@ -70,7 +70,7 @@
 				|| reg.test(interestRate) == true || reg.test(btnReset) == true
 				|| reg.test(recalcBtn) == true || reg.test(btnCalc) == true) {
 			errorText = 'do not allow SCRIPT TAGS';
-			alert(errorText);
+			<!-- alert(errorText); -->
 		} else {
 			if (htmlreg.test(tenor) == true || htmlreg.test(deposit) == true
 					|| htmlreg.test(interestRate) == true

@@ -5,16 +5,8 @@
 <!-- </div> -->
 <!-- /.box-header -->
 
-<script language="JavaScript" type="text/javascript">
-  $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: false
-    })
-  });    
-</script>
-
 <div class="box-body">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false"> 
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
             <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>

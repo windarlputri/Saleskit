@@ -6,7 +6,8 @@
 <!-- </div> -->
 <!-- /.box-header -->
 <div class="box-body">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false" >
+
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
             <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
@@ -23,20 +24,6 @@
                     </div>
                 </div>
             <?php } ?>
-            <!-- <div class="item">
-            <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide25.png" alt="Second slide">
-
-                <div class="carousel-caption">
-                    Second Slide
-                </div>
-            </div>
-            <div class="item">
-            <img class="img-responsive" style="width: 100%" src="<?= base_url() ?>assets\uploads\Slide26.png" alt="Third slide">
-
-                <div class="carousel-caption">
-                    Third Slide
-                </div>
-            </div> -->
         </div>
         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
             <span class="fa fa-angle-left"></span>
