@@ -35,7 +35,12 @@ class Konven extends H_Controller
         $this->load->view('perkalian', $data); //menampilkan hasil proses data
     }
 
-
+    function sinar()
+    {
+        $d['url'] = $this->mod_url;
+        $d['gambar'] = $this->g->ambil_gambar('sp');
+        page_render('Tabungan Sinar', $this->prefix_folder . 'sp', $d);
+    }
     function sp()
     {
         $d['url'] = $this->mod_url;

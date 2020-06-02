@@ -11,7 +11,6 @@ class Menu extends H_Controller
         $this->dbr = new \Rimbun\Common\Database();
         // $this->db = $this->load->database('default', TRUE);
         $this->load->model('Gambar_model', "g");
-        $gambar('.carousel').carousel('pause');
         $this->mod_url=base_url().$this->prefix_folder;
         $this->load->library('core/datatables');
         // $this->up = new \Rimbun\Common\SuperUpload();

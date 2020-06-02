@@ -1,0 +1,22 @@
+Time : 13:46:19
+SQLSTATE[HY000] [2006] MySQL server has gone away
+
+Time : 13:45:47
+SQLSTATE[HY000] [2006] MySQL server has gone away
+
+Time : 13:45:45
+SQLSTATE[HY000] [2006] MySQL server has gone away
+
+Time : 13:45:43
+SQLSTATE[HY000] [2006] MySQL server has gone away
+
+Time : 13:44:28
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+
+Time : 13:44:25
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+
+Time : 13:42:14
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
